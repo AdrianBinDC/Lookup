@@ -13,5 +13,9 @@ struct LookupApp: App {
         WindowGroup {
             ContentView()
         }
+
+        MenuBarExtra("MenuBarExtra") {
+            Text("MenuBarExtra Content")
+        }
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		559463412933FC7500467518 /* WebstersDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559463402933FC7500467518 /* WebstersDictionary.swift */; };
+		559463432933FCA600467518 /* websters_dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 559463422933FCA600467518 /* websters_dictionary.json */; };
+		559463452934028000467518 /* WebstersDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559463442934028000467518 /* WebstersDictionaryTests.swift */; };
 		55CCC7AD2933EF0800BC4C35 /* LookupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7AC2933EF0800BC4C35 /* LookupApp.swift */; };
 		55CCC7AF2933EF0800BC4C35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7AE2933EF0800BC4C35 /* ContentView.swift */; };
 		55CCC7B12933EF0900BC4C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CCC7B02933EF0900BC4C35 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		559463402933FC7500467518 /* WebstersDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebstersDictionary.swift; sourceTree = "<group>"; };
+		559463422933FCA600467518 /* websters_dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = websters_dictionary.json; sourceTree = "<group>"; };
+		559463442934028000467518 /* WebstersDictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebstersDictionaryTests.swift; sourceTree = "<group>"; };
 		55CCC7A92933EF0800BC4C35 /* Lookup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lookup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CCC7AC2933EF0800BC4C35 /* LookupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupApp.swift; sourceTree = "<group>"; };
 		55CCC7AE2933EF0800BC4C35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				55CCC7AC2933EF0800BC4C35 /* LookupApp.swift */,
+				559463402933FC7500467518 /* WebstersDictionary.swift */,
+				559463422933FCA600467518 /* websters_dictionary.json */,
 				55CCC7AE2933EF0800BC4C35 /* ContentView.swift */,
 				55CCC7B02933EF0900BC4C35 /* Assets.xcassets */,
 				55CCC7B52933EF0900BC4C35 /* Lookup.entitlements */,
@@ -116,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				55CCC7BE2933EF0A00BC4C35 /* LookupTests.swift */,
+				559463442934028000467518 /* WebstersDictionaryTests.swift */,
 			);
 			path = LookupTests;
 			sourceTree = "<group>";
@@ -234,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CCC7B42933EF0900BC4C35 /* Preview Assets.xcassets in Resources */,
+				559463432933FCA600467518 /* websters_dictionary.json in Resources */,
 				55CCC7B12933EF0900BC4C35 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +271,7 @@
 			files = (
 				55CCC7AF2933EF0800BC4C35 /* ContentView.swift in Sources */,
 				55CCC7AD2933EF0800BC4C35 /* LookupApp.swift in Sources */,
+				559463412933FC7500467518 /* WebstersDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559463452934028000467518 /* WebstersDictionaryTests.swift in Sources */,
 				55CCC7BF2933EF0A00BC4C35 /* LookupTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +441,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.adrianbolinger.Lookup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,6 +469,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.adrianbolinger.Lookup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -473,7 +487,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A983637AY3;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.adrianbolinger.LookupTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,7 +506,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A983637AY3;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.adrianbolinger.LookupTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,6 +524,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A983637AY3;
 				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.adrianbolinger.LookupUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,6 +542,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A983637AY3;
 				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.adrianbolinger.LookupUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
