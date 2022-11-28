@@ -14,7 +14,6 @@
 		5594634929340A8400467518 /* LookupViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594634829340A8400467518 /* LookupViewModelTests.swift */; };
 		5598A74229344D8E0042C7F4 /* LookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598A74129344D8E0042C7F4 /* LookupView.swift */; };
 		55CCC7AD2933EF0800BC4C35 /* LookupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7AC2933EF0800BC4C35 /* LookupApp.swift */; };
-		55CCC7AF2933EF0800BC4C35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7AE2933EF0800BC4C35 /* ContentView.swift */; };
 		55CCC7B12933EF0900BC4C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CCC7B02933EF0900BC4C35 /* Assets.xcassets */; };
 		55CCC7B42933EF0900BC4C35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CCC7B32933EF0900BC4C35 /* Preview Assets.xcassets */; };
 		55CCC7C92933EF0A00BC4C35 /* LookupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7C82933EF0A00BC4C35 /* LookupUITests.swift */; };
@@ -47,7 +46,6 @@
 		5598A74129344D8E0042C7F4 /* LookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupView.swift; sourceTree = "<group>"; };
 		55CCC7A92933EF0800BC4C35 /* Lookup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lookup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CCC7AC2933EF0800BC4C35 /* LookupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupApp.swift; sourceTree = "<group>"; };
-		55CCC7AE2933EF0800BC4C35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55CCC7B02933EF0900BC4C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55CCC7B32933EF0900BC4C35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55CCC7B52933EF0900BC4C35 /* Lookup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lookup.entitlements; sourceTree = "<group>"; };
@@ -82,6 +80,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5598A743293473360042C7F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				559463422933FCA600467518 /* websters_dictionary.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5598A744293473670042C7F4 /* LookupView */ = {
+			isa = PBXGroup;
+			children = (
+				5598A74129344D8E0042C7F4 /* LookupView.swift */,
+				559463462934087200467518 /* LookupViewModel.swift */,
+			);
+			path = LookupView;
+			sourceTree = "<group>";
+		};
+		5598A745293473950042C7F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				559463402933FC7500467518 /* WebstersDictionary.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		55CCC7A02933EF0800BC4C35 = {
 			isa = PBXGroup;
 			children = (
@@ -106,14 +129,12 @@
 			isa = PBXGroup;
 			children = (
 				55CCC7AC2933EF0800BC4C35 /* LookupApp.swift */,
-				559463402933FC7500467518 /* WebstersDictionary.swift */,
-				559463462934087200467518 /* LookupViewModel.swift */,
-				559463422933FCA600467518 /* websters_dictionary.json */,
-				55CCC7AE2933EF0800BC4C35 /* ContentView.swift */,
+				5598A744293473670042C7F4 /* LookupView */,
+				5598A745293473950042C7F4 /* Models */,
+				5598A743293473360042C7F4 /* Resources */,
 				55CCC7B02933EF0900BC4C35 /* Assets.xcassets */,
 				55CCC7B52933EF0900BC4C35 /* Lookup.entitlements */,
 				55CCC7B22933EF0900BC4C35 /* Preview Content */,
-				5598A74129344D8E0042C7F4 /* LookupView.swift */,
 			);
 			path = Lookup;
 			sourceTree = "<group>";
@@ -275,7 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CCC7AF2933EF0800BC4C35 /* ContentView.swift in Sources */,
 				55CCC7AD2933EF0800BC4C35 /* LookupApp.swift in Sources */,
 				559463472934087200467518 /* LookupViewModel.swift in Sources */,
 				559463412933FC7500467518 /* WebstersDictionary.swift in Sources */,
@@ -367,6 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -421,6 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

@@ -14,7 +14,7 @@ struct LookupApp: App {
     var body: some Scene {
         let viewModel = LookupViewModel()
 
-        MenuBarExtra("", systemImage: "text.book.closed") {
+        MenuBarExtra("", systemImage: "doc.text.magnifyingglass") {
             LookupView(viewModel: viewModel)
         }
         .menuBarExtraStyle(.window)

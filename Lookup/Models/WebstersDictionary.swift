@@ -8,8 +8,6 @@
 import Combine
 import Foundation
 
-//typealias WebstersDict = [String: String]
-
 class WebstersDictionary {
     private(set) lazy var dict: [String: String] = {
         guard let bundle = Bundle.main.url(forResource: "websters_dictionary", withExtension: "json"),
