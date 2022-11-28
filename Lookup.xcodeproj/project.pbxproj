@@ -10,11 +10,12 @@
 		559463412933FC7500467518 /* WebstersDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559463402933FC7500467518 /* WebstersDictionary.swift */; };
 		559463432933FCA600467518 /* websters_dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 559463422933FCA600467518 /* websters_dictionary.json */; };
 		559463452934028000467518 /* WebstersDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559463442934028000467518 /* WebstersDictionaryTests.swift */; };
+		559463472934087200467518 /* LookupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559463462934087200467518 /* LookupViewModel.swift */; };
+		5594634929340A8400467518 /* LookupViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594634829340A8400467518 /* LookupViewModelTests.swift */; };
 		55CCC7AD2933EF0800BC4C35 /* LookupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7AC2933EF0800BC4C35 /* LookupApp.swift */; };
 		55CCC7AF2933EF0800BC4C35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7AE2933EF0800BC4C35 /* ContentView.swift */; };
 		55CCC7B12933EF0900BC4C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CCC7B02933EF0900BC4C35 /* Assets.xcassets */; };
 		55CCC7B42933EF0900BC4C35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CCC7B32933EF0900BC4C35 /* Preview Assets.xcassets */; };
-		55CCC7BF2933EF0A00BC4C35 /* LookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7BE2933EF0A00BC4C35 /* LookupTests.swift */; };
 		55CCC7C92933EF0A00BC4C35 /* LookupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7C82933EF0A00BC4C35 /* LookupUITests.swift */; };
 		55CCC7CB2933EF0A00BC4C35 /* LookupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7CA2933EF0A00BC4C35 /* LookupUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,8 @@
 		559463402933FC7500467518 /* WebstersDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebstersDictionary.swift; sourceTree = "<group>"; };
 		559463422933FCA600467518 /* websters_dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = websters_dictionary.json; sourceTree = "<group>"; };
 		559463442934028000467518 /* WebstersDictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebstersDictionaryTests.swift; sourceTree = "<group>"; };
+		559463462934087200467518 /* LookupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupViewModel.swift; sourceTree = "<group>"; };
+		5594634829340A8400467518 /* LookupViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupViewModelTests.swift; sourceTree = "<group>"; };
 		55CCC7A92933EF0800BC4C35 /* Lookup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lookup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CCC7AC2933EF0800BC4C35 /* LookupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupApp.swift; sourceTree = "<group>"; };
 		55CCC7AE2933EF0800BC4C35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,7 +50,6 @@
 		55CCC7B32933EF0900BC4C35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55CCC7B52933EF0900BC4C35 /* Lookup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lookup.entitlements; sourceTree = "<group>"; };
 		55CCC7BA2933EF0A00BC4C35 /* LookupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55CCC7BE2933EF0A00BC4C35 /* LookupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupTests.swift; sourceTree = "<group>"; };
 		55CCC7C42933EF0A00BC4C35 /* LookupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CCC7C82933EF0A00BC4C35 /* LookupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupUITests.swift; sourceTree = "<group>"; };
 		55CCC7CA2933EF0A00BC4C35 /* LookupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				55CCC7AC2933EF0800BC4C35 /* LookupApp.swift */,
 				559463402933FC7500467518 /* WebstersDictionary.swift */,
+				559463462934087200467518 /* LookupViewModel.swift */,
 				559463422933FCA600467518 /* websters_dictionary.json */,
 				55CCC7AE2933EF0800BC4C35 /* ContentView.swift */,
 				55CCC7B02933EF0900BC4C35 /* Assets.xcassets */,
@@ -123,8 +126,8 @@
 		55CCC7BD2933EF0A00BC4C35 /* LookupTests */ = {
 			isa = PBXGroup;
 			children = (
-				55CCC7BE2933EF0A00BC4C35 /* LookupTests.swift */,
 				559463442934028000467518 /* WebstersDictionaryTests.swift */,
+				5594634829340A8400467518 /* LookupViewModelTests.swift */,
 			);
 			path = LookupTests;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				55CCC7AF2933EF0800BC4C35 /* ContentView.swift in Sources */,
 				55CCC7AD2933EF0800BC4C35 /* LookupApp.swift in Sources */,
+				559463472934087200467518 /* LookupViewModel.swift in Sources */,
 				559463412933FC7500467518 /* WebstersDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,8 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5594634929340A8400467518 /* LookupViewModelTests.swift in Sources */,
 				559463452934028000467518 /* WebstersDictionaryTests.swift in Sources */,
-				55CCC7BF2933EF0A00BC4C35 /* LookupTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
