@@ -12,6 +12,7 @@
 		559463452934028000467518 /* WebstersDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559463442934028000467518 /* WebstersDictionaryTests.swift */; };
 		559463472934087200467518 /* LookupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559463462934087200467518 /* LookupViewModel.swift */; };
 		5594634929340A8400467518 /* LookupViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594634829340A8400467518 /* LookupViewModelTests.swift */; };
+		5598A74229344D8E0042C7F4 /* LookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598A74129344D8E0042C7F4 /* LookupView.swift */; };
 		55CCC7AD2933EF0800BC4C35 /* LookupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7AC2933EF0800BC4C35 /* LookupApp.swift */; };
 		55CCC7AF2933EF0800BC4C35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC7AE2933EF0800BC4C35 /* ContentView.swift */; };
 		55CCC7B12933EF0900BC4C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CCC7B02933EF0900BC4C35 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		559463442934028000467518 /* WebstersDictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebstersDictionaryTests.swift; sourceTree = "<group>"; };
 		559463462934087200467518 /* LookupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupViewModel.swift; sourceTree = "<group>"; };
 		5594634829340A8400467518 /* LookupViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupViewModelTests.swift; sourceTree = "<group>"; };
+		5598A74129344D8E0042C7F4 /* LookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupView.swift; sourceTree = "<group>"; };
 		55CCC7A92933EF0800BC4C35 /* Lookup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lookup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CCC7AC2933EF0800BC4C35 /* LookupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupApp.swift; sourceTree = "<group>"; };
 		55CCC7AE2933EF0800BC4C35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				55CCC7B02933EF0900BC4C35 /* Assets.xcassets */,
 				55CCC7B52933EF0900BC4C35 /* Lookup.entitlements */,
 				55CCC7B22933EF0900BC4C35 /* Preview Content */,
+				5598A74129344D8E0042C7F4 /* LookupView.swift */,
 			);
 			path = Lookup;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				55CCC7AD2933EF0800BC4C35 /* LookupApp.swift in Sources */,
 				559463472934087200467518 /* LookupViewModel.swift in Sources */,
 				559463412933FC7500467518 /* WebstersDictionary.swift in Sources */,
+				5598A74229344D8E0042C7F4 /* LookupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

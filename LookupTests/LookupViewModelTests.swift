@@ -16,7 +16,7 @@ final class LookupViewModelTests: XCTestCase {
 
     private var sut: LookupViewModel!
 
-    override func setUpWithError() throws {
+    @MainActor override func setUpWithError() throws {
         try super.setUpWithError()
         sut = LookupViewModel()
     }
@@ -27,7 +27,7 @@ final class LookupViewModelTests: XCTestCase {
     }
 
     func testInit() {
-        XCTAssertNil(sut.searchTerm)
+        XCTAssertTrue(sut.searchTerm.isEmpty)
         XCTAssertTrue(sut.possibleMatches.isEmpty)
         XCTAssertEqual(sut.foundDefinition, "")
     }
@@ -64,7 +64,7 @@ final class LookupViewModelTests: XCTestCase {
 
         // observe found definition
         sut.$foundDefinition
-            .collect(2)
+            .collect(3)
             .sink { collectedValues in
                 let foundDefinition = collectedValues.last
                 let expectedDefinition = "Of or pertaining to the Vedas."

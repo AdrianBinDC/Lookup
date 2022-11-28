@@ -7,15 +7,16 @@
 
 import SwiftUI
 
+// https://developer.apple.com/documentation/SwiftUI/MenuBarExtra
+
 @main
 struct LookupApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+        let viewModel = LookupViewModel()
 
-        MenuBarExtra("MenuBarExtra") {
-            Text("MenuBarExtra Content")
+        MenuBarExtra("", systemImage: "text.book.closed") {
+            LookupView(viewModel: viewModel)
         }
+        .menuBarExtraStyle(.window)
     }
 }
